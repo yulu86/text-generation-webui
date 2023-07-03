@@ -19,3 +19,5 @@ chmod +x update_macos.sh
 - [facebook/opt-13b](https://huggingface.co/facebook/opt-13b)
 - [facebook/opt-30b](https://huggingface.co/facebook/opt-30b)
 - [facebook/opt-66b](https://huggingface.co/facebook/opt-66b)
+
+- [anon8231489123/vicuna-13b-GPTQ-4bit-128g](https://huggingface.co/anon8231489123/vicuna-13b-GPTQ-4bit-128g)
