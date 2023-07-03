@@ -13,3 +13,8 @@ chmod +x update_macos.sh
 
 ```shell
 ```
+
+## 模型
+- [facebook/opt-1.3b](https://huggingface.co/facebook/opt-1.3b)
+- [facebook/opt-13b](https://huggingface.co/facebook/opt-13b)
+- [facebook/opt-66b](https://huggingface.co/facebook/opt-66b)
