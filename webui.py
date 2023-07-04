@@ -106,7 +106,7 @@ def install_dependencies():
             assert_success=True, environment=True)
     run_cmd("cd text-generation-webui",
             assert_success=True, environment=True)
-    run_cmd("git upstream set-url origin git@github.com:yulu86/text-generation-webui.git",
+    run_cmd("git remote set-url origin git@github.com:yulu86/text-generation-webui.git",
             assert_success=True, environment=True)
     run_cmd("git remote add upstream git@github.com:oobabooga/text-generation-webui.git",
             assert_success=True, environment=True)
