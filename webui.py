@@ -104,7 +104,15 @@ def install_dependencies():
     # Clone webui to our computer
     run_cmd("git clone https://ghproxy.com/https://github.com/yulu86/text-generation-webui.git",
             assert_success=True, environment=True)
-    run_cmd("cd text-generation-webui && git upstream set-url origin git@github.com:yulu86/text-generation-webui.git && git remote add upstream git@github.com:oobabooga/text-generation-webui.git && git checkout my-textgen-20230703 && cd ..",
+    run_cmd("cd text-generation-webui",
+            assert_success=True, environment=True)
+    run_cmd("git upstream set-url origin git@github.com:yulu86/text-generation-webui.git",
+            assert_success=True, environment=True)
+    run_cmd("git remote add upstream git@github.com:oobabooga/text-generation-webui.git",
+            assert_success=True, environment=True)
+    run_cmd("git checkout my-textgen-20230703",
+            assert_success=True, environment=True)
+    run_cmd("cd ..",
             assert_success=True, environment=True)
 
     # Install the webui dependencies
