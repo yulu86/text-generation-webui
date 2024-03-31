@@ -124,6 +124,8 @@ Requirements file to use:
 conda activate textgen
 cd text-generation-webui
 python server.py
+
+python server.py --auto-devices --trust-remote-code --model THUDM_chatglm3-6b
 ```
 
 Then browse to
