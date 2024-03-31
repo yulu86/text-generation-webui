@@ -229,6 +229,8 @@ When you load this model in default or notebook modes, the "HTML" tab will show 
     cd text-generation-webui
     python server.py
 
+    python server.py --auto-devices --trust-remote-code --model THUDM_chatglm3-6b
+
 Then browse to 
 
 `http://localhost:7860/?__theme=dark`
