@@ -125,7 +125,7 @@ conda activate textgen
 cd text-generation-webui
 python server.py
 
-python server.py --listen --character Assistant --auto-devices --extensions text-gen-webui-ui_tweaks long_replies webui_tavernai_charas superboogav2 --trust-remote-code --model THUDM_chatglm3-6b
+python server.py --listen --character Assistant --auto-devices --extensions text-gen-webui-ui_tweaks long_replies webui_tavernai_charas superboogav2 coqui_tts --trust-remote-code --model THUDM_chatglm3-6b
 ```
 
 Then browse to
